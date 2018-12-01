@@ -3,7 +3,6 @@ import numpy as np
 _WINDOW_SEC = 0.150
 _MIN_RR = 0.2
 
-
 def detect(signal, rate):
     delay = 0
     filtered = _low_pass_filter(signal)
